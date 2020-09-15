@@ -3,6 +3,6 @@
     "home_url": "Module_phddns.asp", 
     "md5": "b4ad75ee35832ddac71be34ddab5e927", 
     "module": "phddns", 
-    "title": "3.0", 
+    "title": "花生壳3.0", 
     "version": "3.0.2"
 }
