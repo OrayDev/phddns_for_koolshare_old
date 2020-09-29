@@ -79,17 +79,18 @@ cp -rf /tmp/phddns/oray_op/ /koolshare/phddns/
 cp -rf /tmp/phddns/res/* /koolshare/res/
 cp -rf /tmp/phddns/scripts/* /koolshare/scripts/
 cp -rf /tmp/phddns/webs/*  /koolshare/webs/
+cp -rf /tmp/phddns/init.d/* /koolshare/init.d/
 cp -rf /tmp/phddns/uninstall.sh /koolshare/scripts/uninstall_phddns.sh
 
-if [ -f /koolshare/init.d/S60Phddns.sh ]; then
-	rm -rf /koolshare/init.d/S60Phddns.sh
-fi
+#if [ -f /koolshare/init.d/S60Phddns.sh ]; then
+#	rm -rf /koolshare/init.d/S60Phddns.sh
+#fi
 
-if [ -L /koolshare/init.d/S60Phddns.sh ]; then
-	rm -rf /koolshare/init.d/S60Phddns.sh
-fi
+#if [ -L /koolshare/init.d/S60Phddns.sh ]; then
+#	rm -rf /koolshare/init.d/S60Phddns.sh
+#fi
 
-#chmod 755 /koolshare/init.d/*
+chmod 755 /koolshare/init.d/*Phddns.sh
 chmod 755 /koolshare/scripts/phddns_*.sh
 chmod 755 /koolshare/phddns/oraynewph
 chmod 755 /koolshare/phddns/oraysl
